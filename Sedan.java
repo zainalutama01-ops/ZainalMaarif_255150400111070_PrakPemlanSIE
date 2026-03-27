@@ -1,0 +1,19 @@
+public class Sedan extends Car{
+    public int numDoors = 3;
+    
+    Sedan(){
+        System.out.println("Sedan is created");
+    }
+    
+    public void trunk(){
+        System.out.println("Sedan is opening trunk");
+    }
+    
+    public void honk(){
+        System.out.println("Sedan is honking");
+    }
+    
+    public void getNumWheels(){
+        System.out.println("Sedan has " + numWheel + " wheels");
+    }
+}
